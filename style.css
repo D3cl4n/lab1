@@ -1,0 +1,18 @@
+header {
+    font-family: Futura, Trebuchet MS;
+    font-weight: bold condensed;
+    color: #258555; 
+    font-size: 25px;
+}
+
+body {
+    font-family: Futura, Trebuchet MS;
+    font-weight: bold condensed;
+    color: #c57710; 
+    font-size: 18px;
+}
+
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
