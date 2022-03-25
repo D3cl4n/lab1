@@ -1,79 +1,36 @@
-header {
-    font-family: "Futura", "Trebuchet MS";
-   /* font-family: Futura; Trebuchet MS;*/
-    font-weight: bold condensed;
-    color: #AC2B37; 
-    font-size: 25px;
-    padding: 15px;
-  }
-  
-  h1 {
-    color: #AC2B37;
-    font-family: Futura;
-    font-weight: bold condensed;
-    padding: 10px;
-  }
-  
-  body {
-      background-color: #A9B0B7; /*light blue*/
-      width: 100%;
-      color: #000000; /*black*/
-      font-family: Arial;
-      font-size: 14px;
-  }
-  #content {
-      padding: 3px;
-  }
-  
-  p {
-    padding: 10px;
-  }
-  
-  #WPI{
-      /*center the image*/
-      display: block; 
-      width: 50%;
-      margin-left: auto;
-      margin-right: auto;}
-  }
-  
-  ul {
-      list-style-position: inside; 
-      padding-left: -5em;
-    }
-  
-  #main_nav ul {
-      list-style-position: outside; padding-left: -5em;}
-  
-  #main_nav li  {
-    list-style-type: none; /* remove bullet points */ 
-    padding-left: 1.25rem;
-  }
-  
-  #main_nav li a {
-     display: block;
-     text-decoration: none; /* remove underline */
-     border-radius: 10px;  /* rounded corners */
-     margin: 6px;
-     padding: 9px;
-     color: #222;
-     font-weight: bold;
-  
-     /* nice gradient shade on the buttons */
-     background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
-  
-     border: 1px solid #666; /* dark outline */
-  }
-  
-  nav li:active {
-    background-color: #ccc;
-    background-image: none;
-    box-shadow: inset 0 3px 3px rgba(0, 0, 0, .2);
-  }
-  
-  footer {
-    font-weight: bolder;
-  }
-  
-  
-  
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title> BIKE WPI </title>
+</head>
+
+<body>
+    <!-- HTML5 article tag for content -->
+    <div id="content">
+   
+    <header>BIKE WPI</header>
+
+   <!-- WPI image -->
+   <img id="WPI" src="gompei.jpg" width="320" />
+
+   <!-- H1 means 1st level heading -->
+   <h1>Welcome to Bike WPI</h1>
+    
+   <!-- P stands for paragraph -->
+   <p>We believe in bicycles! Everything you need to be a WPI Cyclist.</p>
+   
+   <!-- Navigation buttons -->
+   <nav id="main_nav">
+      <ul>
+         <!-- LI stands for list item -->
+         <li><a href="stores.html">Bike Stores </a></li>
+         <li><a href="maps.html">Bike Maps </a></li>
+         <li><a href="ride.html">Go for a Ride</a></li>
+      </ul>
+   </nav>
+
+   <footer>CS3041: Human-Computer Interaction </footer>
+    </div>
+</body>
+</html>
